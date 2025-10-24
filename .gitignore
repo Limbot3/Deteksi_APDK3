@@ -8,14 +8,14 @@ __pycache__/
 *.jpg
 *.png
 *.jpeg
-*.mp4
-*.avi
+# *.mp4  <-- Diberi tanda # agar tidak diabaikan
+# *.avi  <-- Diberi tanda # agar tidak diabaikan
 # Kalau datasetmu ada di subfolder, tambahkan nama foldernya
-# Contoh: nama_folder_dataset/ 
+# Contoh: nama_folder_dataset/
 
 # Hasil Training & Deteksi (Folder besar yang dibuat otomatis)
-runs/
-*.pt 
+# runs/  <-- Diberi tanda # agar tidak diabaikan
+# *.pt   <-- Diberi tanda # jika mau upload file model .pt juga
 
 # File konfigurasi IDE/Editor (Tidak relevan untuk orang lain)
 .spyproject/
