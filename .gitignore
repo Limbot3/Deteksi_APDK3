@@ -1,0 +1,26 @@
+# Lingkungan Conda/Python (Folder besar yang tidak perlu diupload)
+yolo_env/
+proyek_yolo/
+*.pyc
+__pycache__/
+
+# Dataset (Gambar/Video biasanya terlalu besar untuk GitHub)
+*.jpg
+*.png
+*.jpeg
+*.mp4
+*.avi
+# Kalau datasetmu ada di subfolder, tambahkan nama foldernya
+# Contoh: nama_folder_dataset/ 
+
+# Hasil Training & Deteksi (Folder besar yang dibuat otomatis)
+runs/
+*.pt 
+
+# File konfigurasi IDE/Editor (Tidak relevan untuk orang lain)
+.spyproject/
+.vscode/
+.idea/
+
+# File Cache (Dibuat otomatis)
+*.cache

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['boots', 'gloves', 'helmet', 'helmet on', 'no boots', 'no glove', 'no helmet', 'no vest', 'person', 'vest']
+
+roboflow:
+  workspace: ppedet-rghnf
+  project: ppe-tqmos
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ppedet-rghnf/ppe-tqmos/dataset/2
